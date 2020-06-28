@@ -150,5 +150,9 @@ Version 1.0.0
 - This version is can random and reset with realtime in all user
 - Draw w/o repeat card
 - Alert when not enough card
-- Have link for more info 
+- IOS icon
 
+
+Version 1.0.1
+--------------
+- Add link to see more info at git

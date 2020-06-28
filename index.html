@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="manifest.json" />
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">    
+    <title>Random Card</title>
+</head>
+  <body>
+  <div style="text-align: center; margin-top: 2em;">
+    <span>Card Left : <span id="Cardleft">0</span></span>
+  </div>
+    <img src="PNG/red_back.png" alt="Card">
+
+    <button class="RandBtn" id="RandBtn">
+      Random
+    </button>
+    <button class="Rstbtn" id="ResetBtn">
+      Reset
+    </button>
+    
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC99mkEvZflZRW9CULWJC0MLKgyy6bmL6g",
+    authDomain: "card-random.firebaseapp.com",
+    databaseURL: "https://card-random.firebaseio.com",
+    projectId: "card-random",
+    storageBucket: "card-random.appspot.com",
+    messagingSenderId: "897562867779",
+    appId: "1:897562867779:web:aa02d5a304498a9565bcf6",
+    measurementId: "G-QY0VHMZ125"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+<script src="Func.js">
+</script>
+  </body>
+</html>

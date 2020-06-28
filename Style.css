@@ -29,3 +29,17 @@ body{
   .Rstbtn:active{
     background-color: #ce778c;
   }
+  .foot{
+    position:absolute;
+    bottom: 0.8em;
+    text-align: center;
+    width: 100%;
+    
+  }
+
+  .foot a{
+    color: #b9b9b9;
+
+  }
+
+ 

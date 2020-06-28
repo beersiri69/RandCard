@@ -22,6 +22,7 @@ Development
 ------------
 This application is in developing state. It's finished in some feature, And I still continue developing. You can [check feature here](#Feature)
 
+---
 
 # Progressive Web Applcation
 
@@ -52,7 +53,7 @@ Service Worker
 The "Service Worker" is necessary to make our webpage be a PWA. It's will run in background to manage cache when application is offline of close application e.g. Notification 
 
 
-
+---
 
 # Installation
 
@@ -74,6 +75,8 @@ Installation Guide for Android user
 1. Open this link with Chrome or default browser https://card-random.firebaseapp.com/
 2. Choose Add to home screen
 3. Add
+   
+   ---
 
 # Doraemon Game
 
@@ -127,13 +130,14 @@ This card separate in to 4 order following this <br>
 - Third person who draw it must order **How many time** you want to someone do
 - Fourth person who draw it must order **Who** you want to do
 
-
+---
 # Firebase
 
 Firebase is database and hosting that powered by Google. They want to make PWA become widely used in nowadays. It will update very instant when data is change. 
 Moreover Authentication  is a one service that use to identification user easier.
 [More Firebase...](https://firebase.google.com/)
 
+---
 # Feature
 
 - [x] Random
